@@ -28,6 +28,8 @@ export const ContactUs = () => {
       message: formData.message,
     };
 
+    console.log("MY TAMP PARAMS...", templateParams)
+
     emailjs
       .send(
         contactConfig.YOUR_SERVICE_ID,

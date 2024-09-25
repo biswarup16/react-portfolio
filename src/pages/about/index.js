@@ -45,9 +45,9 @@ export const About = () => {
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
+                      <th scope="row" className="text-dark">{data.jobtitle}</th>
+                      <td className="text-dark">{data.where}</td>
+                      <td className="text-dark">{data.date}</td>
                     </tr>
                   );
                 })}
